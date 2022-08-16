@@ -1,0 +1,7 @@
+<div class="sidebar">
+    <ul class="navbar">
+        <li><a href="#home" [ngClass]="{ 'active': page === 'home'  }" (click)="clicked('home')">Home</a></li>
+        <li><a href="#about" [ngClass]="{ 'active': page === 'about'  }" (click)="clicked('about')">About</a></li>
+        <li><a href="#contact" [ngClass]="{ 'active': page === 'contact'  }" (click)="clicked('contact')">Contact</a></li>
+    </ul>
+</div>
