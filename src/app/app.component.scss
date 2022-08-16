@@ -1,0 +1,15 @@
+.navigation {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.content {
+    width: max-content;
+    // background-color: brown;
+    height: 100vh;
+    display: flex;
+    overflow-x: scroll;
+}
